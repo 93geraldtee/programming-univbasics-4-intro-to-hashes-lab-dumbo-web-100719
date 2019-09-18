@@ -24,8 +24,7 @@ end
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
-  hash = {}
-  hash[key] = hash[key]
+  if hash[key] = hash[key]
   return hash[key] = key
 end
 
